@@ -1,0 +1,23 @@
+{
+  "name": "webpack核心配置",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "rm -rf dist && webpack",
+    "preview": "http-server dist -p 8081 -o",
+    "build:gui": "webpack-dashboard \"npm run build\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.0",
+    "http-server": "^14.1.1",
+    "webpack": "^5.90.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dashboard": "^3.3.8",
+    "webpack-dev-server": "^4.15.1"
+  }
+}

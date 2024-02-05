@@ -29,5 +29,6 @@ module.exports = {
     'prettier/prettier': 'error',
     'no-undef': 'off',
     '@typescript-eslint/no-var-requires': 'off'
-  }
+  },
+
 }
