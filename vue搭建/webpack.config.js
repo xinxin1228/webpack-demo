@@ -53,6 +53,7 @@ module.exports = {
             options: {
               appendTsSuffixTo: [/\.vue$/],
             },
+            exclude: /node_modules/,
           },
         ],
       },
@@ -72,4 +73,5 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.ts'],
   },
+  // devtool: 'source-map',
 }

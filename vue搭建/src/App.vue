@@ -15,6 +15,8 @@ const message = 'vue'
 
 const handleAdd = () => count.value++
 const handleDes = () => count.value--
+
+console.log('xxxx')
 </script>
 
 <style scoped lang="less">
